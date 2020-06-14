@@ -1,0 +1,145 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.probablycorrect.utils</groupId>
+	<artifactId>TableSawUtils</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>TableSawUtils</name>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>tech.tablesaw</groupId>
+			<artifactId>tablesaw-core</artifactId>
+			<version>0.38.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>tech.tablesaw</groupId>
+			<artifactId>tablesaw-jsplot</artifactId>
+			<version>0.38.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>tech.tablesaw</groupId>
+			<artifactId>tablesaw-json</artifactId>
+			<version>0.38.1</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>tech.tablesaw</groupId>
+			<artifactId>tablesaw-smile</artifactId>
+			<version>0.32.1</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>tech.tablesaw</groupId>
+			<artifactId>tablesaw-html</artifactId>
+			<version>0.38.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>tech.tablesaw</groupId>
+			<artifactId>tablesaw-excel</artifactId>
+			<version>0.38.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>tech.tablesaw</groupId>
+			<artifactId>tablesaw-plot</artifactId>
+			<version>0.24.4</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>tech.tablesaw</groupId>
+			<artifactId>tablesaw-saw</artifactId>
+			<version>0.38.1</version>
+		</dependency>
+		
+		<dependency>
+    <groupId>tech.tablesaw</groupId>
+    <artifactId>tablesaw-beakerx</artifactId>
+    <version>0.38.1</version>
+</dependency>
+
+
+		<dependency>
+    <groupId>tech.tablesaw</groupId>
+    <artifactId>tablesaw-parent</artifactId>
+    <version>0.38.1</version>
+    <type>pom</type>
+</dependency>
+		
+		<dependency>
+    <groupId>tech.tablesaw</groupId>
+    <artifactId>tablesaw-aggregate</artifactId>
+    <version>0.38.1</version>
+</dependency>
+
+
+	</dependencies>
+
+
+
+	<repositories>
+		<repository>
+			<id>tablesaw-core</id>
+			<name>tablesaw-core</name>
+			<url>https://mvnrepository.com/artifact/tech.tablesaw/tablesaw-core</url>
+		</repository>
+
+		<repository>
+			<id>tablesaw-json</id>
+			<name>tablesaw-json</name>
+			<url>https://mvnrepository.com/artifact/tech.tablesaw/tablesaw-json</url>
+		</repository>
+
+		<repository>
+			<id>tablesaw-jsplot</id>
+			<name>tablesaw-jsplot</name>
+			<url>https://mvnrepository.com/artifact/tech.tablesaw/tablesaw-jsplot</url>
+		</repository>
+
+		<repository>
+			<id>tablesaw-html</id>
+			<name>tablesaw-html</name>
+			<url>https://mvnrepository.com/artifact/tech.tablesaw/tablesaw-html</url>
+		</repository>
+
+		<repository>
+			<id>tablesaw-excel</id>
+			<name>tablesaw-excel</name>
+			<url>https://mvnrepository.com/artifact/tech.tablesaw/tablesaw-excel</url>
+		</repository>
+
+		<repository>
+			<id>tablesaw-plot</id>
+			<name>tablesaw-plot</name>
+			<url>https://mvnrepository.com/artifact/tech.tablesaw/tablesaw-plot</url>
+		</repository>
+		
+		<repository>
+			<id>tablesaw-saw</id>
+			<name>tablesaw-saw</name>
+			<url>https://mvnrepository.com/artifact/tech.tablesaw/tablesaw-saw</url>
+		</repository>
+
+		<repository>
+			<id>tablesaw-beakerx</id>
+			<name>tablesaw-beakerx</name>
+			<url>https://mvnrepository.com/artifact/tech.tablesaw/tablesaw-saw</url>
+		</repository>
+		
+		<repository>
+			<id>tablesaw-aggregate</id>
+			<name>tablesaw-aggregate</name>
+			<url>https://mvnrepository.com/artifact/tech.tablesaw/tablesaw-aggregate</url>
+		</repository>
+
+	</repositories>
+
+
+</project>
